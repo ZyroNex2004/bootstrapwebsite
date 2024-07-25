@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <div class="position-fixed"> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: fixed; z-index: 1;">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+            <img src="./Screenshot_24-7-2024_16519_getbootstrap.com-removebg-preview.png" class="img-fluid" alt="..."
+                height="40" width="60">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Themes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Expo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 750px;">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            v4.0
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Latest(v4.1.x)</a></li>
+                            <li><a class="dropdown-item" href="#">v4.0.0</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">v4 Alpha 6</a></li>
+                            <li><a class="dropdown-item" href="#">v3.3.7</a></li>
+                            <li><a class="dropdown-item" href="#">v2.3.2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" style="margin-right: 5px;">
+                        <!-- <a class="nav-link disabled">Disabled</a> -->
+                        <img src="./Screenshot_24-7-2024_165935_getbootstrap.com-removebg-preview.png" class="img-fluid"
+                            alt="..." height="40" width="60">
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              
+                <button class="btn btn-outline-success" type="submit">Download</button>
+                <!-- </form> -->
+            </div>
+        </div>
+    </nav><br><br><br>
+    <!-- </div> -->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Screenshot_24-7-2024_172418_getbootstrap.com.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <!-- <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div> -->
+        </div>
+    </div>
+
+    <div style="margin-left: 50px;">
+        <h2>Custom components</h2>
+        <p>Brand new components and templates to help folks quickly get started with Bootstrap and demonstrate best
+            practices for adding onto the framework.</p>
+    </div>
+
+    <div style="display: flex; gap: 70px;margin-left: 50px;">
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/album.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Album</h4>
+                </a>
+                <p class="card-text">Simple one-page template for photo galleries, portfolios, and more.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/pricing.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Pricing</h4>
+                </a>
+                <p class="card-text">Example pricing page built with Cards and featuring a custom header and footer.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/checkout.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Checkout</h4>
+                </a>
+                <p class="card-text">Custom checkout form showing our form components and their validation features.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/product.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Product</h4>
+                </a>
+                <p class="card-text">Lean product-focused marketing page with extensive grid and image work.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+    </div><br><br><br>
+
+    <div style="display: flex; gap: 70px;margin-left: 50px;">
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/cover.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Cover</h4>
+                </a>
+                <p class="card-text">A one-page template for building simple and beautiful home pages.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/carousel.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Carousel</h4>
+                </a>
+                <p class="card-text">Customize the navbar and carousel, then add some new components.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/blog.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Blog</h4>
+                </a>
+                <p class="card-text">Magazine like blog template with header, navigation, featured content.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/dashboard.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Dashboard</h4>
+                </a>
+                <p class="card-text">Basic admin dashboard shell with fixed sidebar and navbar.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+    </div><br><br><br>
+
+    <div style="display: flex; gap: 70px;margin-left: 50px;">
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/sign-in.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Sign-in</h4>
+                </a>
+                <p class="card-text">Custom form layout and design for a simple sign in form.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/sticky-footer.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Sticky footer</h4>
+                </a>
+                <p class="card-text">Attach a footer to the bottom of the viewport when page content is short.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/sticky-footer-navbar.png"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Sticky footer navbar</h4>
+                </a>
+                <p class="card-text">Attach a footer to the bottom of the viewport with a fixed top navbar.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+    </div><br><br><br>
+
+
+    <div style="margin-left: 50px;">
+        <h2>Framework</h2>
+        <p>Examples that focus on implementing uses of built-in components provided by Bootstrap.</p>
+    </div>
+
+    <div style="display: flex; gap: 70px;margin-left: 50px;">
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/starter-template.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Starter template</h4>
+                </a>
+                <p class="card-text">Nothing but the basics: compiled CSS and JavaScript.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/grid.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Grid</h4>
+                </a>
+                <p class="card-text">Multiple examples of grid layouts with all four tiers, nesting, and more.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/jumbotron.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Jumbbotron</h4>
+                </a>
+                <p class="card-text">Build around the jumbotron with a navbar and some basic grid columns.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+    </div><br><br><br>
+
+
+    <div style="margin-left: 50px;">
+        <h2>Navbars</h2>
+        <p>Taking the default navbar component and showing how it can be moved, placed, and extended.</p>
+    </div>
+
+    <div style="display: flex; gap: 70px;margin-left: 50px;">
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/navbars.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Navbars</h4>
+                </a>
+                <p class="card-text">Demonstration of all responsive and container options for the navbar.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/navbar-static.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Navbar static</h4>
+                </a>
+                <p class="card-text">Single navbar example of a static top navbar along with some additional content.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/navbar-fixed.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Navbar fixed</h4>
+                </a>
+                <p class="card-text">Single navbar example with a fixed top navbar along with some additional content.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/navbar-bottom.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Navbar bottom</h4>
+                </a>
+                <p class="card-text">Single navbar example with a bottom navbar along with some additional content.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+    </div><br><br><br>
+
+    <div style="margin-left: 50px;">
+        <h2>Experiments</h2>
+        <p>Examples that focus on future-friendly features or techniques.</p>
+    </div>
+
+    <div style="display: flex; gap: 70px;margin-left: 50px;">
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/floating-labels.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Floating labels</h4>
+                </a>
+                <p class="card-text">Beautifully simple forms with floating labels over your inputs.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://getbootstrap.com/docs/4.0/examples/screenshots/offcanvas.png" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                    <h4 class="card-title">Offcanvas</h4>
+                </a>
+                <p class="card-text">Turn your expandable navbar into a sliding offcanvas menu.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+
+
+    </div><br><br><br>
+
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Screenshot_24-7-2024_182020_getbootstrap.com.jpeg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
